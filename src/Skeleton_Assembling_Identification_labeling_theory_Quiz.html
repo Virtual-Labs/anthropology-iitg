@@ -284,6 +284,7 @@
 </p>
 
 <input type="button" id="submit" name="submit" value="submit">
+<input type="button" id="cancel" name="cancel" value="cancel">
 
 </form>
 
@@ -297,6 +298,9 @@
 </body>
 
 <script>
+$( "#cancel" ).click(function(){
+location.href = "Quiz_pot.html";
+});
 
 $("#submit").click(function(){
 
